@@ -4,6 +4,7 @@ fn factorial(n:i32)->i32{
     }
     return n*factorial(n-1)
 }
+
 fn main(){
     println!("hello world");
     let name="John";
