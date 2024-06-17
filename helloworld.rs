@@ -44,6 +44,6 @@ fn main(){
     student_name.push_str(" Smith");
     let s=Student{name:student_name, age:25};
     s.show();
-    let last_name=&student_name[5..];
+    let last_name=&s.name[5..];
     println!("My last name is: {}", last_name);
 }
